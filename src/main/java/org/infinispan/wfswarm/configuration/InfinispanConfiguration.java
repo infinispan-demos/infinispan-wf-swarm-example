@@ -1,4 +1,4 @@
-package com.example.configuration;
+package org.infinispan.wfswarm.configuration;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Produces;

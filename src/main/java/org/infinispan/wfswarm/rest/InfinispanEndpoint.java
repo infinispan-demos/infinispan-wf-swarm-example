@@ -1,4 +1,4 @@
-package com.example.rest;
+package org.infinispan.wfswarm.rest;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
