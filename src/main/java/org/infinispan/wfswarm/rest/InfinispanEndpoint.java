@@ -1,5 +1,6 @@
 package org.infinispan.wfswarm.rest;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
@@ -9,6 +10,7 @@ import javax.ws.rs.core.Response;
 import org.infinispan.Cache;
 
 @Path("/infinispan")
+@ApplicationScoped
 public class InfinispanEndpoint {
 
    @Inject
